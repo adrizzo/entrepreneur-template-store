@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EntrepreneurMarket
+
+A modern marketplace platform for entrepreneurs built with Next.js, featuring product listings, categories, and user authentication.
+
+## Features
+
+- 🛍️ Product catalog with search and filtering
+- 📱 Responsive design for all devices
+- 🔐 User authentication with NextAuth.js
+- 🏪 Admin dashboard for product management
+- 🎨 Modern UI with Tailwind CSS
+- 📊 Category management system
 
 ## Getting Started
 
@@ -19,6 +30,29 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Tech Stack
+
+- **Framework**: Next.js 14 with App Router
+- **Styling**: Tailwind CSS
+- **Authentication**: NextAuth.js
+- **Database**: Supabase (configured for mock data)
+- **Icons**: Lucide React
+- **TypeScript**: Full type safety
+
+## Project Structure
+
+```
+src/
+├── app/                    # App Router pages
+│   ├── admin/             # Admin dashboard
+│   ├── auth/              # Authentication pages
+│   ├── products/          # Product pages
+│   └── categories/        # Category pages
+├── components/            # Reusable components
+├── lib/                   # Utility functions
+└── types/                 # TypeScript type definitions
+```
 
 ## Learn More
 
